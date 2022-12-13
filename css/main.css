@@ -1,0 +1,142 @@
+@import "./comment.css";
+@import "./aboutMe.css";
+@import "./forms.css";
+@import "./products.css";
+@import "./partners.css";
+@import "./contacts.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./payments.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+.none{
+    display: none !important;
+}
+/* Reset and base styles  */
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+.subtitle {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 75px;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    width: 290px;
+    padding: 10px 15px 10px 14px;
+    color: #fff;
+    background: #1946BA;
+    box-shadow: 0px 15px 30px rgba(25, 70, 186, 0.2);
+    transition: all 1s ease;
+    border: none;
+}
+
+.container {
+    width: 80%;
+     padding: 0px 5px;
+    margin: 0px auto;
+}
+
+.container-right {
+    padding-left: 10%;
+}
+.dec {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+}
+.certificates__title,
+.main__title,
+.contacts__title,
+.comment-title,
+.payments__info-title,
+.payments-title{
+    color: #1946BA;
+}

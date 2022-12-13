@@ -1,0 +1,32 @@
+.payments {
+    padding: 0px 0px 50px 0px;
+}
+
+.payments__cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+.payments__card {
+    width: 200px;
+}
+
+.payments__img img {
+    width: 100%;
+}
+.payments__img{
+    margin-bottom: 30px;
+}
+
+.payments__info {
+    width: 70vw;
+}
+
+@media(max-width:769px) {
+    .payments__cards{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+}

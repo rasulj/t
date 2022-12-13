@@ -1,0 +1,173 @@
+.about-me {
+    padding-top: 59px;
+    padding-bottom: 159px;
+}
+.about-me__row{
+    display: flex;
+}
+.about-me__info {
+    width: 40%;
+    
+}
+
+.about-me__title {
+   margin: 0px 0px 106px 0px;
+     color: #1946BA ;
+}
+
+.slider__counter {
+    display: flex;
+    column-gap: 20px;
+     align-items: center;
+     margin-top: 20px;
+     margin-left: 50px;
+   
+}
+.slider__counter-number{
+    font-family: 'Geometria';
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color:#8c8c8c;
+}
+
+.card__progress {
+    background-color:darkgrey;
+    width: 428px;
+    height: 4px;
+}
+
+.card-progress-item {
+    width: 0%;
+    height: 90%;
+    background-color: #1946BA;
+}
+.slider-btn{
+    display: flex;
+}
+.offer__slider-prev,
+.offer__slider-next {
+    width: 43px;
+    height: 43px;
+    border: 2px solid #1946BA;
+    border-radius:  50%;
+    text-align: center;
+    color: #1946BA;
+    font-size: 18px;
+    padding-top: 8px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+.about-me__cards {
+    width: 700px;
+    padding-top: 79px;
+    flex-shrink: 0;
+    margin-left: 40px;
+    
+}
+
+
+.card{
+    width: 295px;
+    height: 265px;
+    margin: 0px 0px 30px 20px;
+    box-sizing: border-box;
+     background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(25, 70, 186, 0.5);
+}
+.card img{
+    padding: 30px 0px 30px 20px;
+}
+.card__title{
+    max-width: 275px;
+    padding: 0px 0px 38px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2A2A2A;
+}
+
+.main__info{
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+   
+   
+}
+.main__dec{
+    width: 50%;
+}
+.main__info p{
+    margin-top: 50px;
+}
+.main__info-img  {
+    height: 810px;
+    position: relative;
+    z-index: 4;
+    top: -200px;
+    right: -150px;
+    transform: rotate(-30deg); 
+
+}
+.main__info-img img{
+ width: 610px;
+}
+.certificates__cards{
+    display: flex;
+    justify-content: space-between;
+     gap: 20px;
+}
+.certificates__card{
+     width: 295px;
+     height: 406px;
+}
+.certificates__card img {
+   width: 100%;
+   height: 100%;
+}
+@media(max-width:960px) {
+    .about-me {
+            padding-bottom: 100px;
+        }
+     .about-me__title {
+        margin: 0px 0px 37px 0px;
+    }
+        .slider__counter {
+            justify-content: space-between;     
+            margin-left: 20px;
+        }
+   .slider__counter-number {
+         width: 80px;
+        }
+}
+@media(max-width:769px) {
+    .main__dec {
+            width: 100%;
+        }
+    .main__info-img{
+        display: none;
+    }
+    .certificates__cards {
+           flex-direction: column;
+           align-items: center;
+        }
+    .about-me {
+            padding-top: 49px;
+            padding-bottom: 159px;
+        }
+    .about-me__row{
+        display: flex;
+        flex-direction: column;  
+    }
+ .about-me__info{
+      width: 100%;
+      padding: 0px 10px;
+ }
+ .slider__counter
+
+ .about-me__cards{
+       display: flex;
+       flex-direction: column;
+       margin-left: 0px;
+ }
+}

@@ -1,0 +1,50 @@
+.partners {
+    padding-bottom: 149px;
+    background: #1946BA;
+    box-shadow: 0px 15px 40px rgba(25, 70, 186, 0.1);
+}
+.partners-title{
+    margin: 0px;
+}
+.partners-title h2{
+    color: #fff;
+    padding: 111px 0px 112px 0px ; 
+    margin: 0px;
+}
+
+.partners_cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.partners__card {
+    width: 190px;
+    height: 254px; 
+}
+.partners__img {
+    text-align: center;
+    margin: auto;
+    width: 167px;
+    height: 157px;
+    background-image: url("../icons/bcg1.png");
+}
+.partners__img img{
+  transform: translateY(70%);
+}
+.partners__item-dec {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media(max-width:769px) {
+    .partners_cards {
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+        }
+}

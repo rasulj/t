@@ -1,0 +1,139 @@
+.footer{
+     background-color: blue;
+    
+   
+}
+#over-color{
+    fill: #fff;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   justify-items: center;
+   align-items: center;
+    grid-template-areas:
+        "logo  nav  net"
+        "center center center"
+        " dec1  .  dec2";
+}
+.footer-nav{
+    grid-area: nav;
+    position: relative;
+    top: -30px;
+}
+.footer__logo {
+     margin: 20px 90px 0px ;
+     grid-area: logo;
+     height: 100px;
+     color: #fff;
+     line-height: 20px;
+     font-size: 20px;
+     grid-area:logo; 
+    
+}
+.contacts__social-networks .footer__social-networks{
+      grid-area: net;     
+      margin: 28px 0px 82px 0px;
+}
+.footer__dec-item-1{
+    line-height: 30px;
+    color: #fff;
+    grid-area: dec1;
+}
+.footer__dec-item-2{
+    color: #fff;
+    grid-area: dec2;
+}
+.footer__nav-lists{
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+.footer__nav-list>a {
+     color: #fff;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.footer__nav-list{
+    margin-top: 20px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer__nav-list>a:hover{
+    color: rgba(192, 171, 171.0,5);
+}
+
+
+.foolter-svg {
+    color: #fff;
+    background-color: #fff;
+}
+         
+@media(max-width:769px) {
+    .footer__nav-list {
+         margin-top: 0px;
+            display: block;
+           
+        }
+.grid__container {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 50px;
+    justify-items: center;
+    align-items: flex-start;
+    column-gap: 10px;
+    grid-template-areas:
+        " . logo  ."
+        " . nav ."
+        " . dec1 ."
+        " . dec2 . "
+        " . net ."
+        ". ne .";
+}
+
+    .footer-nav {
+        grid-area: nav;
+        margin:0px ;
+        position: static;
+            
+        }
+
+        .footer__logo {
+        grid-area: logo;
+        margin: 20px 0px 0px 0px;
+        padding-bottom: 0px;
+        color: #fff;
+        line-height: 20px;
+        font-size: 18px;
+        height: 50px;
+           
+    }
+   .footer__dec-item-1 {
+       grid-area: dec1;
+       line-height: 20px;
+       color: #fff;
+   }
+
+   .footer__dec-item-1 p {
+       margin: 10px ;
+   }
+
+   .footer__dec-item-2 {
+       grid-area: dec2;
+   }
+   .footer__dec-item-2 p{
+    margin: 10px;
+   }
+   .footer__social-networks{
+    grid-area: net;
+    margin: 20px ;
+   }
+    }
+
+    
+
