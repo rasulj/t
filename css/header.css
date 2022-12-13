@@ -48,8 +48,8 @@
     align-items: center;
 
 }
-
-.nav__list a {
+.tab-list{
+    padding: 10px;
     font-weight: 600;
     font-style: normal;
     font-size: 14px;
@@ -62,7 +62,7 @@
     color: #1946BA;
 }
 
-.nav__list.active a {
+.tab-list.active {
     color: #1946BA;
 }
 

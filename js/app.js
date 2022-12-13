@@ -11,12 +11,12 @@ function creatHeader(){
                  
                  <nav class="nav ">
                      <ul class="nav__lists ">
-                         <li class="nav__list active"><a href="./index.html" >Главная</a></li>
-                         <li class="nav__list"><a href="./cotalog.html">Каталог</a></li>
-                         <li class="nav__list"><a href="./paymenst.html"> Как заказать</a></li>
-                         <li class="nav__list"><a href="./comment.html">Отзывы</a></li>
-                         <li class="nav__list" ><a href="./about.html">О нас</a></li>
-                         <li class="nav__list" ><a href="./contact.html">Контакты</a></li>
+                         <li class="nav__list "><a class="tab-list " href="./index.html" >Главная</a></li>
+                         <li class="nav__list"><a  class="tab-list"href="./cotalog.html">Каталог</a></li>
+                         <li class="nav__list"><a class="tab-list " href="./paymenst.html"> Как заказать</a></li>
+                         <li class="nav__list"><a class="tab-list" href="./comment.html">Отзывы</a></li>
+                         <li class="nav__list" ><a class="tab-list" href="./about.html">О нас</a></li>
+                         <li class="nav__list" ><a class="tab-list" href="./contact.html">Контакты</a></li>
                      </ul>
                  </nav>
                  <div class="nav__contact ">
@@ -39,8 +39,11 @@ function creatHeader(){
 }
 creatHeader()
 
-let tabItems = document.querySelector(".nav__lists");
-let tabItem = document.querySelectorAll('.nav__list');
+
+
+
+
+
 
 
 const burger =document.querySelector('.header__burger')
@@ -62,12 +65,12 @@ function creatFooter(){
                          </div>
                         <nav class="footer-nav">
                            <ul class=" footer__nav-lists">
-                               <li class=" footer__nav-list"><a href="./index.html" >Главная</a></li>
-                               <li class=" footer__nav-list"><a href=""./cotalog.html">Каталог</a></li>
-                                <li class="footer__nav-list"><a href="./paymenst.html"> Как заказать</a></li>
-                                <li class="footer__nav-list"><a href="./comment.html">Отзывы</a></li>
-                               <li class="footer__nav-list" ><a href="./about.html">О нас</a></li>
-                               <li class="footer__nav-list" ><a href="./contact.html">Контакты</a></li>
+                               <li class=" footer__nav-list"><a class="tab-list" href="./index.html" >Главная</a></li>
+                               <li class=" footer__nav-list"><a class="tab-list" href=""./cotalog.html">Каталог</a></li>
+                                <li class="footer__nav-list"><a class="tab-list" href="./paymenst.html"> Как заказать</a></li>
+                                <li class="footer__nav-list"><a class="tab-list" href="./comment.html">Отзывы</a></li>
+                               <li class="footer__nav-list" ><a class="tab-list" href="./about.html">О нас</a></li>
+                               <li class="footer__nav-list" ><a class="tab-list" href="./contact.html">Контакты</a></li>
                           </ul>
                        </nav>
                         <div class="contacts__social-networks footer__social-networks">

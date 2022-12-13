@@ -46,7 +46,6 @@ wovCard()
 next.addEventListener('click', ()=> {
     slideindex++
     progressItemWidth += colorProgress ;
-        console.log(progressItemWidth,'next');
 
  progressItem .style.width = `${progressItemWidth}%`
    if( progressItemWidth >= 100){
