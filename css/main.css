@@ -42,10 +42,12 @@ aside {
     display: block;
 }
 
-html,
+html{
+    width: 100vw;
+}
 body {
     height: 100%;
-    width: 100%;
+    width: 100vw;
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
@@ -126,6 +128,8 @@ h6 {
 .container-right {
     padding-left: 10%;
 }
+
+
 .dec {
     font-weight: 400;
     font-size: 14px;
@@ -139,4 +143,9 @@ h6 {
 .payments__info-title,
 .payments-title{
     color: #1946BA;
+}
+@media(max-width:769px) {
+    .container-right {
+            padding:0px;
+        }
 }
