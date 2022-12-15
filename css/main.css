@@ -225,4 +225,9 @@ h6 {
     .container-right {
             padding:0px;
         }
+.subtitle {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 15px;
+        }
 }

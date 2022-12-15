@@ -113,6 +113,14 @@ form{
     }
 }
 @media(max-width:769px) {
+    .forms__content p {
+           text-align: center;
+            margin: 0px 0px 0px 0px;
+        }
+    .forms__title {
+            max-width: 338px;
+            margin:10px auto;
+        }
     .form__img {
         display: none;
     }

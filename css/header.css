@@ -49,10 +49,10 @@
 }
 .tab-list{
     padding: 10px;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 10px;
     color: #8C8C8C;
     text-decoration: none;
 }
@@ -101,7 +101,7 @@
 }
 
 .header__productions-info>h3 {
-    width: 581px;
+    max-width: 581px;
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;

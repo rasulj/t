@@ -120,7 +120,7 @@ function openmodel(){
 
 function hideModal(){
       modal.classList.remove('wov')
-      modal.classList.add('hide');
+      modal.classList.add('none');
     document.body.style.overflow = '';
   
   
