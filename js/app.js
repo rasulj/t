@@ -23,7 +23,7 @@ function creatHeader(){
                       <div class="phone">
                           <a href="tel:+"> +7 928 076 14 98</a>  
                       </div>
-                         <span class="phone__link">Заказать обратный звонок</span>
+                          <span class="phone__link data-model" data="data-model">Заказать обратный звонок</span>
                  </div>
                  <div class="header__burger">
                 <span></span>
@@ -40,13 +40,7 @@ function creatHeader(){
 creatHeader()
 
 
-
-
-
-
-
-
-const burger =document.querySelector('.header__burger')
+const burger = document.querySelector('.header__burger')
 const headerBurger =document.querySelector('.header__menu')
  let headerBody = document.querySelector(".header__body")
 
@@ -112,6 +106,35 @@ function creatFooter(){
 creatFooter()
 
  
+let modal = document.querySelector('.modal');
+let btns = document.querySelectorAll('.data-model');
+let modal__close = document.querySelector(".modal__close");
+
+
+function openmodel(){
+     modal.classList.remove('none')
+     modal.classList.add('wov');
+     document.body.style.overflow = 'hidden';
+
+}
+
+function hideModal(){
+      modal.classList.remove('wov')
+      modal.classList.add('hide');
+    document.body.style.overflow = '';
+  
+  
+//    // clearInterval(timeropenmodel);
+  
+}
+modal__close.addEventListener('click',hideModal)
+
+btns.forEach( btn => btn.addEventListener('click', openmodel));
+
+modal.addEventListener('click',(e) => {
+    if (e.target == modal || e.target.getAttribute("data-model") == '' ){
+    hideModal();
+}});
 
 //======================form============
 
