@@ -227,7 +227,7 @@ h6 {
 @media(max-width:769px) {
     .container{
         width: 100%;
-        padding: 0px;
+        padding: 20px;
         margin: 0px;
     }
     .container-right {
