@@ -42,8 +42,11 @@ aside {
 
 html{
     width: 100vw;
+    height: 100%;
+    overflow-y: hidden;
 }
 body {
+  overflow-x: hidden;
     height: 100%;
     width: 100vw;
     font-size: 100%;
@@ -228,6 +231,7 @@ h6 {
 .subtitle {
         font-weight: 500;
         font-size: 32px;
-        line-height: 15px;
+        line-height: 40px;
         }
+      
 }

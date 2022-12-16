@@ -154,7 +154,7 @@
 .weed-1 {
     width: 331px;
     height: 185px;
-    left: -15%;
+    left: -10%;
     bottom: 13%;
 }
 
@@ -170,7 +170,7 @@
     width: 205px;
     height: 135px;
     top: 10%;
-    left: -5%;
+    left: 10%;
  
 }
 
@@ -278,12 +278,12 @@
         padding-left: 0;
     }
     .weed-3{
-        top: 20%;
-        left: -55%;
+        top: 10%;
+        left: -10%;
     }
     .weed-1 {
-        left: -90%;
-        bottom: 10%;
+        left: -38%;
+        bottom: 12%;
     }
  .weed-2 {
     left: 50%;
@@ -397,4 +397,20 @@
     
  }
 
+}
+@media(max-width:569px) {
+    .weed-1 {
+            left: -97px;
+            bottom: 72px;
+        }
+    
+        .weed-2 {
+            left: 190px;
+            bottom: 152px;
+        }
+    
+        .weed-3 {
+            top: 95px;
+            left: -53px;
+        }
 }
