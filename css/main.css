@@ -225,6 +225,11 @@ h6 {
     display: none;
 }
 @media(max-width:769px) {
+    .container{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
     .container-right {
             padding:0px;
         }

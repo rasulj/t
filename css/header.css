@@ -225,7 +225,7 @@
   .header__body.active>.header__burger{
       position: absolute;
       top: 20px;
-      right: 70px;
+      right: 32px;
      
   }
   .header__body.active>.header__burger>span,
@@ -320,9 +320,10 @@
         font-weight: 600;
         font-style: normal;
         font-size: 20px;
-        line-height: 21px;
+        line-height: 51px;
         color: #fff;
         padding-left: 0px;
+        padding: 10px;
         text-decoration: none;
     }
   .nav__list a:hover{
@@ -342,6 +343,13 @@
    .header__body {
     display: flex;
     justify-content: space-between;
+    
+}
+body{
+    margin: auto;
+}
+.header{
+    margin-top: 0px;
 }
 
 .header__burger {
