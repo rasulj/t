@@ -224,7 +224,7 @@
 
   .header__body.active>.header__burger{
       position: absolute;
-      top: 20px;
+      top: 32px;
       right: 32px;
      
   }
